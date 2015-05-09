@@ -5,9 +5,9 @@
 void mostrarMensaje(char*);
 
 int main(){
-	char buffer[80];
+	char buffer[512];
 
-	mostrarMensaje("ingrese su texto:\n");
+	mostrarMensaje("Ingrese el texto:\n");
 	scanf("%s", buffer);
 	printf("El texto ingresado fue: '%s' \n",buffer);
 
