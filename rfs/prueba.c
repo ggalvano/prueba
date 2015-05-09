@@ -9,7 +9,7 @@ int main(){
 
 	mostrarMensaje("ingrese su texto:\n");
 	scanf("%s", buffer);
-	printf("El texto ingresado:",buffer);
+	printf("El texto ingresado fue: '%s' \n",buffer);
 
 
 
